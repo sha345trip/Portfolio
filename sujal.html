@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujal</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="sujal.css">
+</head>
+<body>
+<header class="header">
+    <a href="#" class="logo"><span>S</span>UJAL .</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>UI/UX Designer</h3>
+        <h1><span>S</span>ujal Tanwar</h1>
+        <h3>And I am from Jaipur Rajasthan</h3>
+    </div>
+    <div class="home-img">
+        <img src="logos\Screenshot 2023-04-06 143627.png" alt="">
+    </div>
+   </section>
+   <section class="about" id="about">
+    <div class="about-img">
+        <img src="logos\nicolai-kramer-unsplash.jpg">
+    </div>
+    <div class="about-content">
+       <h2 class="heading"><span>A</span>bout Me</h2>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At rerum officia ut deserunt ipsam corporis tempore inventore quis eius qui natus, laborum dolorem repudiandae ipsa placeat magni quae consequatur porro impedit itaque. Expedita neque deserunt quaerat molestiae vero. Ullam, saepe est cumque quas ipsam adipisci maxime?</p>
+       <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+        <p class="tab-links" onclick="opentab('education')">Education</p>
+        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+       </div>
+       <div class="tab-content active-tab" id="skills">
+        <ul>
+            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+            <li><span>Web Development</span><br> Web Interfaces</li>
+            <li><span>App Development</span><br>Building Android/IOS Apps</li>
+        </ul>
+       </div>
+       <div class="tab-content" id="education">
+        <ul>
+            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+            <li><span>Web Development</span><br> Web Interfaces</li>
+            <li><span>App Development</span><br>Building Android/IOS Apps</li>
+        </ul>
+       </div>
+       <div class="tab-content" id="experience">
+        <ul>
+            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+            <li><span>Web Development</span><br> Web Interfaces</li>
+            <li><span>App Development</span><br>Building Android/IOS Apps</li>
+        </ul>
+       </div>
+    </div>
+   </section>
+   <section class="services" id="services">
+    <h2 class="heading"><span>M</span>y Services</h2>
+    <div class="services-container">
+        <div class="services-box">
+            <i class='bx bx-code-curly'></i>
+            <h3>Web Development</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque ipsam molestiae nulla sed natus, repellendus porro quisquam sit quis libero.</p>
+            <a href="" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+            <i class='bx bxs-paint' ></i>
+            <h3>Graphic Design</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque ipsam molestiae nulla sed natus, repellendus porro quisquam sit quis libero.</p>
+            <a href="" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+            <i class='bx bx-bar-chart-alt' ></i>
+            <h3>Digital Marketing</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque ipsam molestiae nulla sed natus, repellendus porro quisquam sit quis libero.</p>
+            <a href="" class="btn">Read More</a>
+        </div>
+    </div>
+   </section>
+   <section class="portfolio" id="portfolio">
+    <h2 class="heading"><span>L</span>atest Project</h2>
+    <div class="portfolio-container">
+     <div class="portfolio-box">
+         <img src="logos\Valley-Taurus-Mountains-Turkey.webp">
+         <div class="portfolio-layer">
+             <h4>Web Design</h4>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, maxime?</p>
+             <a href="#"><i class='bx bx-link-external' ></i></a>
+         </div>
+     </div>
+     <div class="portfolio-box">
+         <img src="logos\Valley-Taurus-Mountains-Turkey.webp">
+         <div class="portfolio-layer">
+             <h4>Web Design</h4>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, maxime?</p>
+             <a href="#"><i class='bx bx-link-external' ></i></a>
+         </div>
+     </div>
+     <div class="portfolio-box">
+         <img src="logos\Valley-Taurus-Mountains-Turkey.webp">
+         <div class="portfolio-layer">
+             <h4>Web Design</h4>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, maxime?</p>
+             <a href="#"><i class='bx bx-link-external' ></i></a>
+         </div>
+     </div>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="heading"><span>C</span>ontact Me</h1>
+                <div class="det">
+                <p><i class='bx bx-envelope'></i>contact@example.com</p>
+                <p><i class='bx bx-phone-call' ></i>0123654789</p>
+            </div>
+                <div class="icons">
+                    <a href=""><i class='bx bxl-facebook'></i></a>
+                    <a href=""><i class='bx bxl-twitter'></i></a>
+                    <a href=""><i class='bx bxl-instagram'></i></a>
+                    <a href=""><i class='bx bxl-linkedin'></i></a>
+                </div>
+                <a href="logos\CEN 207 -Cable-short.pdf" class="btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                   <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                   <button type="submit" class="btn3">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2023 by Shanky | All Rights Reserved </p>
+    </div>
+    <div class="footer-icontop">
+        <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+    </div>
+   </footer>
+<script src="https://unpkg.com/scrollreveal"></script>
+  <script src="sujal.js"></script>  
+</body>
+</html>
